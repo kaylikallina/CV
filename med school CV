@@ -1,0 +1,273 @@
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[11pt,a4paper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{orange} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Kayli} % Your first name
+\familyname{Kallina} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{1650 West 6th Street Apt M}{Austin, Texas 78703}
+\mobile{(979) 758 2010}
+\email{kaylikallina@utexas.edu}
+% The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2018-present}{Dell Medical School}{}{University of Texas at Austin}{}{M.D., anticipated May 2022}
+
+\vspace{.1in}
+
+\cventry{2010--2014}{B.S. in  Psychology}{}{University of Texas at Austin}{}{Education Minor}
+% Arguments not required can be left empty
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Employment}
+
+\cventry{2017 - 2018}{Emergency Department Scribe}{\textsc{PhysAssist Scribes}}{Dearborn, MI}{}{}
+
+\cvlistitem{Awarded Northeast Region Scribe of the Month for April 2018}
+\vspace{.1in}
+%------------------------------------------------
+
+\cventry{2015--2017}{Research Technician}{\textsc{Colgin Lab}}{University of Texas}{}{}
+
+\cvlistitem{Designed and built recording devices for in vivo electrophysiological experiments in freely behaving animal models used to collect data that led to four publications}
+\cvlistitem{Developed a comprehensive instructional manual on the assembly of recording devices that has been adopted by labs in the US, Taiwan, and India}
+\cvlistitem{ Prepared histological specimen and performed microscopy techniques}
+\cvlistitem{Supervised research assistants at the undergraduate and postbac level; trained graduate students, postdoctoral researchers, and visiting scholars in electrophysiological recording device construction}
+\cvlistitem{Led small group session on neuron rate coding for Dell Medical School Health Sciences Summer Camp 2016}
+\cvlistitem{Obtained Green Lab certification for implementing safe and  sustainable laboratory practices; served as first Green Labs Ambassador for the Colgin Lab}
+
+\vspace{.1in}
+%------------------------------------------------
+
+\cventry{Fall 2013}{English Teacher}{\textsc{Coprodeli}}{Callao, Per\'u}{}{}
+\cvlistitem{Prepared and taught English lessons to a hundred elementary students daily, and to faculty twice a week}
+\cvlistitem{Organized first English spelling competition and lunchtime karaoke event}
+\cvlistitem{Evaluated success of bilingual program in collaboration with the board of directors}
+%------------------------------------------------
+
+\newpage
+%----------------------------------------------------------------------------------------
+%	Community Service SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Community Service}
+
+%------------------------------------------------
+
+
+
+\cventry{2018--2019}{Volunteer}{\textsc{C.D. Doyle Clinic}}{Austin, TX}{\textit{thirty hours}}{{\textit{C.D. Doyle is a student-run clinic that offers free medical services to under represented residents of Austin}}}
+
+\vspace{.1in}
+
+%------------------------------------------------
+
+\cventry{2018--2019}{Volunteer}{\textsc{Project Collaborate Health Screenings}}{Austin, TX}{\textit{Four hours}}{}
+
+\vspace{.1in}
+
+%------------------------------------------------
+\cventry{2019}{Volunteer}{\textsc{The Healing Project}}{Austin Can Academy}{\textit{Four hours}}{}
+
+\vspace{.1in}
+%------------------------------------------------
+
+
+\cventry{2019}{Teaching Assistant}{\textsc{Health Career Academy}}{Travis High}{\textit{Seven hours}}{}
+
+\vspace{.1in}
+%------------------------------------------------
+
+\cventry{2018}{Guest speaker}{\textsc{Austin Achieve Middle School Drama Club}}{}{\textit{Two hours}}{}
+
+\vspace{.1in}
+
+\cventry{Spring 2017}{Trainee}{\textsc{Spanish Community Interpreter Project}}{Washtenaw County, MI}{\textit{Thirty hours}}{}
+
+\vspace{.1in}
+
+%------------------------------------------------
+
+\cventry{2017}{Advocate}{\textsc{Partners in Care Concierge}}{Ann Arbor, MI}{\textit{Twenty hours}}{}
+
+\cvlistitem{Accompanied English and Spanish-speaking elderly patients to medical appointments}
+
+\vspace{.1in}
+%------------------------------------------------
+
+\cventry{Spring 2016}{Teaching Assistant}{\textsc{Adults with IDD}}{University of Texas}{\textit{Twenty hours}}{}
+\cvlistitem{Facilitated a supportive and inclusive learning environment for adults with intellectual and developmental disabilities}
+\cvlistitem{Oversaw the safe arrival and departure of students to weekly, evening classes}
+
+\vspace{.1in}
+
+%------------------------------------------------
+
+\cventry{2014--2015}{English Teacher}{\textsc{Casa Marianella}}{Austin, TX}{\textit{Two hundred hours}}{}
+\cvlistitem{Completed Literacy Coalition of Central Texas English Forward training}
+\cvlistitem{Created English curriculum for immigrant and refugee adult learners}
+\cvlistitem{Led evening classes and coordinated Show and Tell events}
+\cvlistitem{Prepared dinner for forty residents of the emergency shelter}
+\cvlistitem{Provided career building support for shelter residents}
+\cvlistitem{Practiced cultural humility by communicating effectively with a diverse, international population.
+}
+
+\vspace{.1in}
+%------------------------------------------------
+
+
+
+\cventry{2011--2014}{Reading Tutor}{\textsc{AISD}}{Austin, TX}{\textit{One hundred hours}}{}
+
+
+
+
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+\cvitem{2019}{Health Humanities Graduate Scholar}
+\cvitem{2010--2014}{Terry Foundation Scholar}
+\cvitem{2012--2014}{University of Texas Service Scholar}
+\cvitem{2010}{Valedictorian of Rice CISD High School}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	EXTRACURRICULAR SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Extracurricular Activities}
+
+\cventry{2018--2019}{MESH}{\textsc{Dell Medical School}}{}{}{\textit{MESH is a student-run organization that stands for Making Equity Standard in Healthcare.}}
+
+\cvlistitem{Co-chaired the 2018-2019 Education Committee}
+\cvlistitem{Hosted two Allyship Trainings for medical students in collaboration with the UT Austin Gender and Sexuality Center}
+\cvlistitem{Organized student committee to review and propose curricular changes to address health disparities}
+
+\vspace{.1in}
+
+\cventry{2018--2019}{Emergency Medicine Interest Group}{\textsc{Dell Medical School}}{}{}{}
+\cvlistitem{Served as Secretary for the 2018-2019 term}
+
+\vspace{.1in}
+
+\cventry{2018--2019}{The Osler Society}{\textsc{Dell Medical School}}{}{}{\textit{The Osler Society is a student organization whose mission is to enrich the academic experience of Dell Medical School students and faculty by promoting engagement in the humanities.}}
+
+\vspace{.1in}
+
+\cventry{2019}{Volunteer}{\textsc{3M Half Marathon Medical Tent}}{Austin, TX}{\textit{five hours}}{}
+
+
+
+\vspace{.1in}
+
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research}
+
+
+%------------------------------------------------
+
+\cventry{2013--2014}{Undergraduate Assistant}{\textsc{Cog. Neuro. Lab}}{University of Texas}{}{}
+
+\cvlistitem{Conducted behavioral and neuropsychological tests}
+\cvlistitem{Processed blood specimen for further analysis}
+\cvlistitem{Certified as a Level 1 MRI Operator}
+
+%------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	MISCELLANEOUS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Miscellaneous}
+
+\cventry{Summer 2012}{Study Abroad}{\textsc{Antigua, Guatemala}}{}{}{}
+
+\vspace{.1in}
+
+\cventry{}{Languages}{}{}{}{}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{English (native)}{Spanish (proficient)}
+
+\vspace{.1in}
+
+\cventry{}{Hobbies}{}{}{}{}
+\cvlistdoubleitem{Running}{Basketball}
+\cvlistdoubleitem{Dogs}{Guitar}
+
+
+
+
+
+
+\end{document}
